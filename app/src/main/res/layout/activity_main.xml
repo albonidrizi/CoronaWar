@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="www.virus.war.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background" />
+
+    <TextView
+        android:id="@+id/ihavetofly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/highScoreTxt"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="218dp"
+        android:text="LET'S FIGHT THE VIRUS"
+        android:textColor="#ffffff"
+        android:textSize="48sp" />
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="302dp"
+        android:layout_height="278dp"
+        android:layout_below="@+id/ihavetofly"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button1"
+
+
+        android:text="Play"
+
+        android:textColor="#5360fd"
+        android:textSize="70sp" />
+
+    <TextView
+        android:id="@+id/highScoreTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="550dp"
+        android:layout_marginRight="37dp"
+        android:text="High Score"
+        android:textColor="#5360fd"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="25dp"
+
+        android:src="@drawable/ic_volume_off_black_24dp"
+        android:text="Sound1" />
+
+
+</RelativeLayout>
